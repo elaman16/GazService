@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/colorPrimary">
+<!--<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/splash_image"
+    android:scaleType="fitXY"/>-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Товарищество с ограниченной ответственностью ГАЗ-СЕРВИС"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:layout_above="@+id/progressBar3"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/textView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_gas"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressBar3" />
+</RelativeLayout>

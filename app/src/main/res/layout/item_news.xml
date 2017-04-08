@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <RelativeLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/news_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+
+            />
+        <TextView
+            android:id="@+id/time_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="22.03.2016"
+            android:layout_alignBottom="@+id/news_image"
+            android:layout_margin="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="#99000000"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:padding="3dp"
+        android:id="@+id/title_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thumbnail"
+        android:text="25 сентября 2009 года в АО НСК была создана Агентская сеть"
+        android:textColor="#55AEE4"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:maxLines="3"/>
+    <TextView
+    android:padding="3dp"
+    android:id="@+id/des"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/title_news"
+    android:text="Ее создание стало естественной необходимостью в части улучшения качества обслуживания наших Клиентов."
+    android:textSize="13dip"
+    android:maxLines="3"/>
+
+</RelativeLayout>

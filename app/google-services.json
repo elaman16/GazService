@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "948670453588",
+    "firebase_url": "https://gazservice-1959b.firebaseio.com",
+    "project_id": "gazservice-1959b",
+    "storage_bucket": "gazservice-1959b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948670453588:android:e5be80c90b548ba8",
+        "android_client_info": {
+          "package_name": "kz.elaman.gazservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948670453588-paskn01qtid78i565c1mlmlomsu28u7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kz.elaman.gazservice",
+            "certificate_hash": "0d4640a1301f0d1c174f8cee0109ef7c9aeea3a8"
+          }
+        },
+        {
+          "client_id": "948670453588-r82is7c3hcr1ndpbus1tklkkjj52i4fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkLj95j-pU7KRPUbNzgT2Xfx_UWT2CAQ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948670453588-r82is7c3hcr1ndpbus1tklkkjj52i4fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
